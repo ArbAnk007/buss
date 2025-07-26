@@ -1,4 +1,3 @@
-import { heroBannerBig, travelImage, healthcareImage, itImage } from "../images/index.js";
 import { motion } from "framer-motion";
 
 const HomePage = () => {
@@ -62,58 +61,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-// function HomePage() {
-// 	const services = [
-// 		{
-// 			name: "travel",
-// 			discription: "Seamless travel experiences — from planning to execution. We offer customized travel packages, ticketing, and support for personal and corporate journeys.",
-// 			img: travelImage,
-// 			rev: false,
-// 		},
-// 		{
-// 			name: "healthcare",
-// 			discription: "Seamless travel experiences — from planning to execution. We offer customized travel packages, ticketing, and support for personal and corporate journeys.",
-// 			img: healthcareImage,
-// 			rev: true,
-// 		},
-// 		{
-// 			name: "it",
-// 			discription: "Seamless travel experiences — from planning to execution. We offer customized travel packages, ticketing, and support for personal and corporate journeys.",
-// 			img: itImage,
-// 			rev: false,
-// 		},
-// 		{
-// 			name: "trading",
-// 			discription: "Seamless travel experiences — from planning to execution. We offer customized travel packages, ticketing, and support for personal and corporate journeys.",
-// 			img: travelImage,
-// 			rev: true,
-// 		},
-// 	];
-
-// 	return (
-// 		<div>
-// 			{/* <div className="heading mb-16 flex flex-col items-center gap-y-2">
-// 				<div>
-// 					<p className="text-6xl font-bold text-[#2aa6a8]">BUSS</p>
-// 				</div>
-// 				<div className="w-[80%]">
-// 					<p className="text-xl text-center font-semibold">Bright Up Solution and Services is a dynamic startup committed to driving positive transformation across key sectors: Travel, Healthcare, Information Technology, Education, Agriculture, and Trading. Founded by a visionary duo, our company is built on the values of innovation, integrity, and impact. We are on a mission to bridge gaps, unlock opportunities, and bring high-quality services.</p>
-// 				</div>
-// 			</div> */}
-// 			<hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-// 			{services.map((item) => (
-// 				<div key={item.name} className={`flex justify-around mt-8 mb-8 gap-x-4 ${item.rev ? "flex-row-reverse" : ""}`}>
-// 					<div className="w-[50%] flex items-center">
-// 						<p className="text-2xl text-center">{item.discription}</p>
-// 					</div>
-// 					<div className="flex items-center w-[50%]">
-// 						<img src={item.img} alt="" className="rounded-4xl w-full h-96 object-cover" />
-// 					</div>
-// 				</div>
-// 			))}
-// 		</div>
-// 	);
-// }
-
-// export default HomePage;
