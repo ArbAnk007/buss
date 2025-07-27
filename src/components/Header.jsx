@@ -39,6 +39,11 @@ const Header = () => {
 						</NavLink>
 					</li>
 					<li>
+						<NavLink to="/careers" className="hover:text-yellow-300">
+							Careers
+						</NavLink>
+					</li>
+					<li>
 						<NavLink to="/contact" className="hover:text-yellow-300">
 							Contact
 						</NavLink>
@@ -68,6 +73,11 @@ const Header = () => {
 						<li>
 							<NavLink to="/services" className="hover:text-yellow-300" onClick={toggleMenu}>
 								Services
+							</NavLink>
+						</li>
+						<li>
+							<NavLink to="/careers" className="hover:text-yellow-300" onClick={toggleMenu}>
+								Careers
 							</NavLink>
 						</li>
 						<li>

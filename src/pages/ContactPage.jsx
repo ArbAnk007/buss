@@ -36,6 +36,7 @@ const ContactPage = () => {
 				{/* Form */}
 				<div className="bg-white p-8 rounded-lg shadow-md">
 					<h2 className="text-2xl font-bold text-blue-800 mb-6">Send us a message</h2>
+					<h2 className="text-lg text-gray-600 mb-6">We're available 24x7</h2>
 					<form onSubmit={handleSubmit} className="space-y-4">
 						<input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Your Name" required className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
 						<input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Your Email" required className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
@@ -53,10 +54,13 @@ const ContactPage = () => {
 						<p className="mb-4">Have questions? Feel free to reach out through the following channels:</p>
 						<ul className="space-y-3 text-gray-700 mb-6">
 							<li>
-								<strong>Email:</strong> contact@brightup.in
+								<strong>Email:</strong> contact@bussindia.in
 							</li>
 							<li>
-								<strong>Phone:</strong> +91-XXXXXXXXXX
+								<strong>Phone:</strong> +91-8743074319
+							</li>
+							<li>
+								<strong>Phone:</strong> +91-9430673437
 							</li>
 							<li>
 								<strong>Location:</strong> Kishanganj, Bihar

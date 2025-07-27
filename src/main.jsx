@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
-import { HomePage, AboutPage, ServicesPage, ContactPage } from "./pages/index.js";
+import { HomePage, AboutPage, ServicesPage, ContactPage, ComingSoon } from "./pages/index.js";
 
 const router = createBrowserRouter([
 	{
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
 			{
 				path: "contact",
 				element: <ContactPage />,
+			},
+			{
+				path: "careers",
+				element: <ComingSoon />,
 			},
 		],
 	},

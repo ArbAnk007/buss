@@ -38,8 +38,8 @@ const HomePage = () => {
 
 			<motion.section id="about" className="py-16 bg-white" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
 				<div className="max-w-4xl mx-auto text-center">
-					<h2 className="text-3xl font-bold text-blue-800 mb-4">Who We Are</h2>
-					<p className="text-gray-700 text-md">Bright Up is a startup committed to positive transformation in multiple sectors. We blend innovation with impact to bridge gaps and deliver high-quality services to communities.</p>
+					<h2 className="text-3xl font-bold text-blue-800 mb-4">Bright Up Solutions and Services</h2>
+					<p className="text-gray-700 text-md">Bright Up Solution and Services is a dynamic startup committed to driving positive transformation across key sectors: Travel, Healthcare, Information Technology, Education, Agriculture, and Trading. Founded by a visionary duo, our company is built on the values of innovation, integrity, and impact, We are on a mission to bridge gaps, unlock opportunities, and bring high-quality services.</p>
 				</div>
 			</motion.section>
 
