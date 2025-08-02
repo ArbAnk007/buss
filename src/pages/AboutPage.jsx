@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { directorImageOne, directorImageTwo } from "../images/index.js";
 
 const pageVariants = {
 	initial: { opacity: 0, y: 20 },
@@ -45,14 +46,20 @@ const AboutPage = () => {
 				<h2 className="text-3xl font-bold text-blue-900 mb-6 text-center">Our Leadership</h2>
 				<div className="grid md:grid-cols-2 gap-8">
 					{/* Aamir Ashraf */}
-					<motion.div className="bg-white p-6 rounded-lg shadow-md cursor-pointer" whileHover={{ scale: 1.03 }}>
+					<motion.div className="bg-white p-6 rounded-lg shadow-md cursor-pointer flex flex-col items-center text-center gap-y-4" whileHover={{ scale: 1.03 }}>
+						<div className="w-80 h-[400px]">
+							<img src={directorImageOne} alt="Aamir Ashraf" className="w-full h-full object-fit rounded-lg" />
+						</div>
 						<h3 className="text-2xl font-semibold text-blue-800">Aamir Ashraf</h3>
 						<p className="text-sm text-gray-500 mb-2">Senior Technology & Network Specialist | Strategic Leader for Startups</p>
 						<p className="text-gray-700">Aamir is an accomplished Electronics & Communication Engineer with a Master’s degree and over a decade of experience in networking and technology leadership. He has managed complex infrastructures, led teams, and delivered scalable solutions for startups. Passionate about leveraging technology for real-world problems, he specializes in education, IT, travel, and trading sectors.</p>
 					</motion.div>
 
 					{/* Musarrat Perween */}
-					<motion.div className="bg-white p-6 rounded-lg shadow-md cursor-pointer" whileHover={{ scale: 1.03 }}>
+					<motion.div className="bg-white p-6 rounded-lg shadow-md cursor-pointer flex flex-col items-center text-center gap-y-4" whileHover={{ scale: 1.03 }}>
+						<div className="w-80 h-[400px]">
+							<img src={directorImageTwo} alt="Musarrat Perween" className="w-full h-full object-fit rounded-lg" />
+						</div>
 						<h3 className="text-2xl font-semibold text-blue-800">Musarrat Perween</h3>
 						<p className="text-sm text-gray-500 mb-2">Social Development Expert | Philanthropist | Advocate for Rural Empowerment</p>
 						<p className="text-gray-700">Musarrat holds a degree in Psychology and is passionate about rural empowerment and social development. With extensive experience in agriculture programs and healthcare initiatives, she designs impactful community programs that uplift rural areas through sustainable agriculture, health awareness, and education.</p>
