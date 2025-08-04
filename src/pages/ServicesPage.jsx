@@ -35,7 +35,7 @@ const ServicesPage = () => {
 		},
 		{
 			title: "Trading",
-			desc: "Stock market trading, investment strategies, and financial solutions for individuals and businesses.",
+			desc: "Wholesale and retail trading of essential goods, tech, health products, and agricultural inputs — ensuring quality and reliability in every deal.",
 			icon: <FaChartLine className="text-purple-600 text-5xl mb-4" />,
 		},
 	];
